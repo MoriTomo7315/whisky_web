@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cardの全体divクラス */
+.apl_card {
+  @apply flex-1 h-auto w-full bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden
+}
+
+/* Cardのタグ用クラス */
+.apl_btn {
+  @apply inline-block rounded-full px-1 py-1 md:px-2 md:py-2 bg-orange-100 text-xs md:text-sm
+}
