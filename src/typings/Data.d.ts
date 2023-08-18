@@ -1,22 +1,6 @@
-declare module '~/data/output20230817.json' {
+import {Data} from '../model/Data'
 
-    interface Data {
-        wiskeys: Wiskey[];
-    }
-
-    interface Wiskey {
-        name: string;
-        type: string;
-        hit_count: number;
-        videos: Video[];
-        items: string[];
-    }
-
-    interface Video {
-        id: string;
-        title: string;
-    }
-
+declare module '~/data/*.json' {
     const data: Data;
 
     export default data;

@@ -1,5 +1,4 @@
 import React from 'react';
-import QuestionMarkCircleIcon from '../atoms/QuestionMarkCircleIcon';
 
 const Header = () => {
     return (
