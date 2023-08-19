@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-router-dom", "npm:5.3.3"],\
             ["@types/testing-library__jest-dom", "npm:5.14.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:6.4.0"],\
+            ["@vercel/analytics", "npm:1.0.2"],\
             ["autoprefixer", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:10.4.15"],\
             ["postcss", "npm:8.4.27"],\
             ["react", "npm:18.2.0"],\
@@ -5516,6 +5517,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/visitor-keys", "npm:6.4.0"],\
             ["@typescript-eslint/types", "npm:6.4.0"],\
             ["eslint-visitor-keys", "npm:3.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vercel/analytics", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/@vercel-analytics-npm-1.0.2-4fd0537e29-5f596db6ed.zip/node_modules/@vercel/analytics/",\
+          "packageDependencies": [\
+            ["@vercel/analytics", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17998,6 +18008,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-router-dom", "npm:5.3.3"],\
             ["@types/testing-library__jest-dom", "npm:5.14.9"],\
             ["@typescript-eslint/eslint-plugin", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:6.4.0"],\
+            ["@vercel/analytics", "npm:1.0.2"],\
             ["autoprefixer", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:10.4.15"],\
             ["postcss", "npm:8.4.27"],\
             ["react", "npm:18.2.0"],\

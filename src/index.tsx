@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Analytics } from '@vercel/analytics/react';
 import {
   BrowserRouter,
   Routes,
@@ -25,6 +26,7 @@ root.render(
         <Route path="/whatisamericanwiskey" element={<WhatIsAmericanWiskey />} />
       </Routes>
     </BrowserRouter>
+    <Analytics />
   </React.StrictMode>,
 );
 
