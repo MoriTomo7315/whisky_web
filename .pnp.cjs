@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "wiskey-web",\
+        "name": "whisky-web",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["wiskey-web", ["workspace:."]]\
+      ["whisky-web", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -17992,11 +17992,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["wiskey-web", [\
+      ["whisky-web", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["wiskey-web", "workspace:."],\
+            ["whisky-web", "workspace:."],\
             ["@heroicons/react", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:2.0.18"],\
             ["@testing-library/jest-dom", "npm:5.17.0"],\
             ["@testing-library/react", "virtual:0a9e4d1465b7d583b8767c233b318fd13572a8c71a6f930e6a27fc7a945b91f3e2155f0be788b4bcc29210ed2ab4dc1e1e34a27bae16f87d18fbc46925ef2471#npm:13.4.0"],\

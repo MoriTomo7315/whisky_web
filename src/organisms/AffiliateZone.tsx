@@ -1,16 +1,16 @@
 import React from 'react';
-import { Wiskey } from '../model/data';
+import { Whisky } from '../model/data';
 import AffiliateCard from './AffiliateCard';
 
 interface Props {
-    wiskey: Wiskey
+    whisky: Whisky
 };
 
-const AffiliateZone = ({ wiskey }: Props) => {
+const AffiliateZone = ({ whisky }: Props) => {
     return (
-        <div className='p-10'>
+        <div className='sm:px-1'>
             {
-                wiskey.affiliates.map((affiliate, index) => {
+                whisky.affiliates.map((affiliate, index) => {
                     return (
                         <div>
                             <hr />

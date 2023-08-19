@@ -13302,9 +13302,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wiskey-web@workspace:.":
+"whisky-web@workspace:.":
   version: 0.0.0-use.local
-  resolution: "wiskey-web@workspace:."
+  resolution: "whisky-web@workspace:."
   dependencies:
     "@heroicons/react": ^2.0.18
     "@testing-library/jest-dom": ^5.14.1

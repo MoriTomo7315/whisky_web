@@ -1,8 +1,8 @@
 export interface Data {
-    wiskeys: Wiskey[];
+    whiskys: Whisky[];
 }
 
-export interface Wiskey {
+export interface Whisky {
     id: number;
     name: string;
     type: string;

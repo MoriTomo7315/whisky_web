@@ -1,23 +1,23 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'
-import { WiskeyDataClient } from '../client/WiskeyDataClient';
+import { WhiskyDataClient } from '../client/WhiskyDataClient';
 
 const DetailPage = () => {
-    const wiskeyId = useParams().wiskeyId;
+    const whiskyId = useParams().whiskyId;
 
-    if (!isNaN(Number(wiskeyId)) && wiskeyId != undefined) {
-        let wiskey = WiskeyDataClient.getById(Number(wiskeyId))
-        if (wiskey == undefined) {
+    if (!isNaN(Number(whiskyId)) && whiskyId != undefined) {
+        let whisky = WhiskyDataClient.getById(Number(whiskyId))
+        if (whisky == undefined) {
             return <p>404 Not Found</p>;
         } else {
             return (
                 <div className='container mx-auto max-w-full max-h-full text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
                     <div>
-                        {wiskey.name}
+                        {whisky.name}
                     </div>
                     <div className='container mx-auto md:w-8/12'>
                         {
-                            wiskey.videos.map((video, index) => {
+                            whisky.videos.map((video, index) => {
                                 return (
                                     <div className="w-full h-auto">
                                         <div className="text-black m-2 py-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">

@@ -4,7 +4,7 @@ interface Props {
     type?: string;
 };
 
-const WiskeyTypeTag = ({ type }: Props) => {
+const WhiskyTypeTag = ({ type }: Props) => {
 
     return (
         <button className="apl_btn">
@@ -13,4 +13,4 @@ const WiskeyTypeTag = ({ type }: Props) => {
     );
 }
 
-export default WiskeyTypeTag;
+export default WhiskyTypeTag;

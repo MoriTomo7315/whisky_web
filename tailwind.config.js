@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         'amazon': '#FF9900',
         'rakuten': '#BF0000',
-        'wiskey': "#E57931",
+        'whisky': "#E57931",
       },
     },
     fontFamily: {

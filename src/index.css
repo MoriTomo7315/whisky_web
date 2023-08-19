@@ -879,7 +879,7 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-wiskey {
+.text-whisky {
   --tw-text-opacity: 1;
   color: rgb(229 121 49 / var(--tw-text-opacity));
 }
@@ -943,7 +943,7 @@ video {
   width: 100%;
 }
 
-.hover\:text-wiskey:hover {
+.hover\:text-whisky:hover {
   --tw-text-opacity: 1;
   color: rgb(229 121 49 / var(--tw-text-opacity));
 }
