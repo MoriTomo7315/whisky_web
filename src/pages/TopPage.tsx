@@ -19,9 +19,9 @@ const TopPage = () => {
     // 身近なもの取得
     const majorNameList = ["I.W.ハーパー", "アーリータイムズ", "ジムビーム", "ジャックダニエル", "フォアローゼズ", "メーカーズマーク", "ワイルドターキー"]
     let majorWiskeyList = Array<Wiskey>(majorNameList.length)
-    majorNameList.map((majorName,index) =>{
+    majorNameList.map((majorName, index) => {
         let majorWiskey = WiskeyDataClient.getByName(majorName)
-        if(majorWiskey != undefined) majorWiskeyList[index] = majorWiskey
+        if (majorWiskey != undefined) majorWiskeyList[index] = majorWiskey
     });
 
     return (
@@ -52,7 +52,7 @@ const TopPage = () => {
                         }
 
                         return (
-                            <div>
+                            <div key={index}>
                                 <div className="text-black m-2 py-2 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
                                     <a href={`/detail/${index}`}>{index + 1}位</a>
                                 </div>
@@ -79,11 +79,10 @@ const TopPage = () => {
                         }
 
                         return (
-                            <div>
-                                <Card
-                                    wiskey={wiskey}
-                                />
-                            </div>
+                            <Card
+                                key={index}
+                                wiskey={wiskey}
+                            />
                         );
                     })
                 }

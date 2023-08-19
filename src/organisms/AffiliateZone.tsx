@@ -1,14 +1,28 @@
 import React from 'react';
-import AmazonButton from '../atoms/AmazonButton';
-import RakutenButton from '../atoms/RakutenButton';
+import { Wiskey } from '../model/data';
+import AffiliateCard from './AffiliateCard';
 
-const AffiliateZone = () => {
+interface Props {
+    wiskey: Wiskey
+};
+
+const AffiliateZone = ({ wiskey }: Props) => {
     return (
-        <div>
-            <div className="flex my-4 w-full text-xs md:text-sm lg:text-md xl:text-lg">
-                <AmazonButton />
-                <RakutenButton />
-            </div>
+        <div className='p-10'>
+            {
+                wiskey.affiliates.map((affiliate, index) => {
+                    return (
+                        <div>
+                            <hr />
+                            <AffiliateCard
+                                key={index}
+                                affiliate={affiliate}
+                            />
+                        </div>
+                    );
+                })
+            }
+            
         </div>
     );
 }
