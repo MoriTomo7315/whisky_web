@@ -10,6 +10,7 @@ import TopPage from './pages/TopPage';
 import DetailPage from './pages/DetailPage';
 import reportWebVitals from './reportWebVitals';
 import Header from './organisms/Header';
+import WhatIsAmericanWiskey from './pages/WhatIsAmericanWiskey';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,6 +22,7 @@ root.render(
       <Routes>
         <Route path="/" element={<TopPage />} />
         <Route path="/detail/:wiskeyId" element={<DetailPage />} />
+        <Route path="/whatisamericanwiskey" element={<WhatIsAmericanWiskey />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

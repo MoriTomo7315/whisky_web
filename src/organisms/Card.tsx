@@ -30,9 +30,12 @@ const Card = ({ wiskey }: Props) => {
                 {
                     videoIds.map((videoId, index) => {
                         const thumbnailUrl = 'https://img.youtube.com/vi/' + videoId + '/sddefault.jpg'
+                        const videoUrl = 'https://www.youtube.com/watch?v='+videoId
                         return (
                             <div key={index} className="w-11/12 hover:w-full h-auto bg-cover rounded-t lg:rounded-t-none lg:rounded-l m-4">
-                                <img src={thumbnailUrl} alt={wiskey.videos[index].title} />
+                                <a href={videoUrl}>
+                                    <img src={thumbnailUrl} alt={wiskey.videos[index].title} />
+                                </a>
                                 {/* <iframe className='w-full aspect-video'
                                     src={`https://www.youtube.com/embed/${videoId}`}
                                     frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"

@@ -26,7 +26,7 @@ const TopPage = () => {
 
     return (
         <div className='mx-auto max-w-full text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
-            <div className="w-full h-auto text-center bg-[url('static/images/top_image.jpg')] p-4 md:p-16 lg:p-32 bg-cover">
+            {/* <div className="w-full h-auto text-center bg-[url('static/images/top_image.jpg')] p-4 md:p-16 lg:p-32 bg-cover">
                 <div className='text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl'>
                     今&nbsp;注目されてる&nbsp;アメリカンウィスキー&nbsp;が分かる
                 </div>
@@ -36,7 +36,7 @@ const TopPage = () => {
                     でも、どのウィスキーがよいか迷ってるあなた！<br />
                     とりあえずYouTuberが紹介してる一本を選んでみては！
                 </div>
-            </div>
+            </div> */}
             <div className='container mx-auto w-full md:w-8/12'>
                 <div className="text-gray-900 my-4 md:my-16">
                     YouTube関連動画数ランキング Top3
